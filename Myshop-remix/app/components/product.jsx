@@ -1,16 +1,12 @@
 import { Link } from '@remix-run/react'
 import React from 'react';
-const fs = require('fs-extra');
+// const fs = require('fs-extra');
 
 function Product({ id, product }) {
   const { description, image, price, url, name } = product;
 
-  let fileString = '{"product_id": ' + id + '}'
-  fs.writeFileSync('./data1.json', fileString);
-
-  function handleViewProductClick() {
-    console.log(id);
-  }
+  // let fileString = '{"product_id": ' + id + '}'
+  // fs.writeFileSync('./data1.json', fileString);
 
   return (
     <div className="product">
@@ -20,7 +16,7 @@ function Product({ id, product }) {
         <p className="description">{description}</p>
         <p className="price">${price}</p>
 
-        <Link onClick={handleViewProductClick()} className="link" to={`/productlist`}>
+        <Link className="link" to={`/product/${url}`}>
           View Product
         </Link>
       </div>
