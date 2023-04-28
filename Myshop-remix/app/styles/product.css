@@ -21,6 +21,8 @@
     grid-template-columns: 2fr 3fr;
     gap: 1rem;
     align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
 }
 
 .product .content{
@@ -75,4 +77,20 @@ h2 {
 
 .product .link:hover {
     background-color: var(--primary);
+}
+
+.product .text {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 900;
+
+}
+
+.product .title{
+    font-size: 100px;
+    background: rgb(120,172,238);
+    background: linear-gradient(90deg, rgba(120,172,238,1) 4%, rgba(1,255,219,1) 51%, rgba(28,117,203,1) 100%, rgba(7,164,196,1) 100%, rgba(4,0,84,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

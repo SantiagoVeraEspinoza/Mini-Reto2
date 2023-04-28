@@ -50,7 +50,6 @@ export default function App() {
       <Outlet>
         <Index />
       </Outlet>
-    
 
     </Document>
   )
@@ -74,3 +73,23 @@ function Document({ children }) {
     </html>
   )
 }
+
+
+export function CatchBoundry(){
+  const error = useCatch();
+  return(
+    <Document>
+      <p className="error">{error.status} {error.statusText}</p>
+    </Document>
+  )
+}
+
+export function ErrorBoundary({error}) {
+  return(
+    <Document>
+      <p className="error">{!error ? "Loading..." : error}</p>
+    </Document>
+  )
+}
+
+
