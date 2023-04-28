@@ -4,9 +4,8 @@ import React from 'react';
 import { getProduct } from '~/models/productid.server'
 // const fs = require('fs-extra');
 
-var id = 1;
-
-export async function loader(){    
+export async function loader({ params }){    
+    const { id } = params;
     const products = await getProduct(id);
     return products.data;
 }

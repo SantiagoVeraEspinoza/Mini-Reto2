@@ -16,7 +16,7 @@ function Product({ id, product }) {
         <p className="description">{description}</p>
         <p className="price">${price}</p>
 
-        <Link className="link" to={`/product/${url}`}>
+        <Link className="link" to={`/product/${id}`}>
           View Product
         </Link>
       </div>
