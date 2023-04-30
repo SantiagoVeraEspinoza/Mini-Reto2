@@ -15,28 +15,6 @@ Antes de continuar, asegúrate de tener los siguientes requisitos previos instal
 1. Clona este repositorio:
 
 ```
-
-¡Claro! Aquí tienes el mismo archivo README.md en formato de código para que puedas copiarlo y pegarlo:
-
-markdown
-Copy code
-# Ejemplo de aplicación web con base de datos integrada
-
-Esta aplicación web es un ejemplo de cómo integrar una base de datos en una aplicación utilizando Strapi y Remix en carpetas separadas. La aplicación está alojada en un VPS de DigitalOcean que ejecuta Ubuntu, y está automatizada con CI/CD de GitHub Actions.
-
-## Requisitos previos
-
-Antes de continuar, asegúrate de tener los siguientes requisitos previos instalados:
-
-- Node.js (versión 12 o superior)
-- NPM (versión 6 o superior)
-- Git
-
-## Instalación
-
-1. Clona este repositorio:
-
-```
 git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
 
