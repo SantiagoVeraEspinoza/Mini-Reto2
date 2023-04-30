@@ -4,6 +4,9 @@ WD=$PWD
 
 cd /root/Mini-Reto2
 
+git fetch
+git reset origin/main --hard
+
 tmux kill-server
 
 cd /root/Mini-Reto2/MyShop
