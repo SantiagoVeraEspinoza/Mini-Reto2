@@ -9,7 +9,7 @@ git reset origin/main --hard
 
 tmux kill-server
 
-sleep 2
+sleep 1
 
 tmux new-session -s my-shop-api -d
 tmux send-keys -t my-shop-api:0 "cd MyShop" C-m
