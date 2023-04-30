@@ -18,25 +18,46 @@ Antes de continuar, asegúrate de tener los siguientes requisitos previos instal
 git clone https://github.com/tu-usuario/tu-repositorio.git
 ```
 
-
 2. Entra al directorio del proyecto:
 
 ```
 cd Mini-Reto2
 ```
 
-3. Instala las dependencias de Strapi y Remix para las carpetas correspondientes:
+3. Instala nvm para acceder a la version 14 de node:
+
+Instalar nvm.
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+```
+
+Reejecutar .bashrc.
+```
+source ~/.bashrc
+```
+
+Instalar la version 14 de node.
+```
+nvm install 14 
+```
+
+Cambiar a node 14
+```
+nvm use 14
+```
+
+4. Instala las dependencias de Strapi y Remix para las carpetas correspondientes:
 
 ```
 cd ../MyShop
 npm i
 cd ../Myshop-remix
-npm install
+npm i
 ```
 
-4. Crea un archivo `.env` en la carpeta `api` con las credenciales de la base de datos. Asegúrate de que el archivo contenga las variables indicadas para el proyecto.
+5. Crea un archivo `.env` en la carpeta `api` con las credenciales de la base de datos. Asegúrate de que el archivo contenga las variables indicadas para el proyecto.
 
-5. Inicia Strapi y Remix en carpetas separadas en diferentes terminales:
+6. Inicia Strapi y Remix en carpetas separadas en diferentes terminales:
 
 Strapi
 ```
