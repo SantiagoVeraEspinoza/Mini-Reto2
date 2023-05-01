@@ -8,8 +8,8 @@
 
 h2 {
     font-size: 72px;
-    background: rgb(162,120,238);
-    background: linear-gradient(90deg, rgba(162,120,238,1) 33%, rgba(1,255,219,1) 51%, rgba(127,28,203,1) 71%, rgba(4,0,84,1) 100%, rgba(7,164,196,1) 100%);    
+    background: rgb(120,172,238);
+    background: linear-gradient(90deg, rgba(120,172,238,1) 4%, rgba(1,255,219,1) 51%, rgba(28,117,203,1) 100%, rgba(7,164,196,1) 100%, rgba(4,0,84,1) 100%);    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -20,3 +20,21 @@ h2 {
         align-items: center;
     }
 }
+
+.home .content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    color: white;
+    
+}
+
+.heading {
+    font-size: 72px;
+    background: rgb(120,172,238);
+    background: linear-gradient(90deg, rgba(120,172,238,1) 4%, rgba(1,255,219,1) 51%, rgba(28,117,203,1) 100%, rgba(7,164,196,1) 100%, rgba(4,0,84,1) 100%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+

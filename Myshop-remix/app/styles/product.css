@@ -68,7 +68,7 @@
 }
 
 h2 {
-    font-size: 72px;
+    font-size: 100px;
     background: rgb(162,120,238);
     background: linear-gradient(90deg, rgba(162,120,238,1) 33%, rgba(1,255,219,1) 51%, rgba(127,28,203,1) 71%, rgba(4,0,84,1) 100%, rgba(7,164,196,1) 100%);    
     -webkit-background-clip: text;
@@ -88,7 +88,7 @@ h2 {
 }
 
 .product .title{
-    font-size: 100px;
+    font-size: 200px;
     background: rgb(120,172,238);
     background: linear-gradient(90deg, rgba(120,172,238,1) 4%, rgba(1,255,219,1) 51%, rgba(28,117,203,1) 100%, rgba(7,164,196,1) 100%, rgba(4,0,84,1) 100%);
     -webkit-background-clip: text;
