@@ -22,6 +22,7 @@ export function links(){
 
 function Blog(){
     return(
+
         <div className="container">
 <div class="radio-btns" role="radiogroup">
 <h2 className="heading">
@@ -40,6 +41,7 @@ function Blog(){
   </div>
 </div>
 </div>
+
     )
 }
 export default Blog
