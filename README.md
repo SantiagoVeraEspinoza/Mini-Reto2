@@ -55,7 +55,7 @@ cd ../Myshop-remix
 npm i
 ```
 
-5. Crea un archivo `.env` en la carpeta `api` con las credenciales de la base de datos. Asegúrate de que el archivo contenga las variables indicadas para el proyecto.
+5. Crea un archivo `.env` en la carpeta `/MyShop` a nivel raiz de ese directorio para la API con las credenciales de la base de datos (Si es el profesor dicho archivo viene adjuntado en la entrega). Asegúrate de que el archivo contenga las variables indicadas para el proyecto.
 
 6. Inicia Strapi y Remix en carpetas separadas en diferentes terminales:
 
