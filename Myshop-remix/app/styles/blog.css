@@ -1,0 +1,65 @@
+.radio-btns {
+  display: block;
+  gap: 1rem;
+  width: 50%;
+  height: 50%;
+
+}
+
+.radio-btns:hover .radio-btns__btn:not(:hover) {
+  filter: grayscale(100%);
+  opacity: 0.75;
+}
+
+.radio-btns:hover .radio-btns__btn:not(:hover)::after {
+  background-color: rgba(#000, 0.5);
+}
+
+@media (min-width: 30rem) {
+  .radio-btns {
+    grid-template-columns: repeat(3, 150px);
+  }
+}
+
+
+
+.radio-btns__btn {
+  position: relative;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  justify-content: center;
+}
+
+.radio-btns__btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(#000, 0);
+  transition: .3s;
+}
+
+.radio-btns__btn img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.heading {
+  font-size: 72px;
+  background: rgb(120,172,238);
+  background: linear-gradient(90deg, rgba(120,172,238,1) 4%, rgba(1,255,219,1) 51%, rgba(28,117,203,1) 100%, rgba(7,164,196,1) 100%, rgba(4,0,84,1) 100%);    
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
