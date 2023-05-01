@@ -34,20 +34,6 @@ export async function loader({params}){
     return products.data;
 }
 
-/*
-export function meta({data}) {
-    
-    if(!data){
-        return {
-            title: 'RevTech - Product not Found'
-        }
-    }
-    
-  }
-  */
-  
-
-
 function Productlist(){
 
     const product = useLoaderData();
